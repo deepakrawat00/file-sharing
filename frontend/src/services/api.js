@@ -1,6 +1,6 @@
 export const UploadFile = async (fileData) => {
     try {
-        const response = await fetch("http://localhost:10000/api/v1/upload", {
+        const response = await fetch("https://file-sharing-xx3h.onrender.com/api/v1/upload", {
             method: 'POST',
             body: fileData
         })
